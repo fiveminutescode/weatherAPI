@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(90deg, #5a5aaa 20%, #216392 80%);
+}
+
+.weather_wrapper {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background: rgb(56, 56, 53);
+    margin: 100px auto;
+    box-shadow: -20px 20px 0 -17px #fff, 20px -20px 0 -17px #fff, 20px 20px 0 -20px #c27153, 0 0 0 3px #c27153;
+}
+
+.current_temp {
+    width: 60%;
+    height: 250px;
+    border-right: solid white 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.current_temp input {
+    position: absolute;
+    width: 202px;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+}
+
+.temp_box {
+    width: 210px;
+    height: 224px;
+}
+
+.temp {
+    position: absolute;
+    width: 100%;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    top: 60px;
+}
+
+.city {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    left: 10px;
+    bottom: 30px;
+}
+
+.current_weather {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+}
+
+.weather {
+    width: 100%;
+    height: 86%;
+    color: white;
+    font-size: 16px;
+    line-height: 250%;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    width: 98%;
+    height: 14%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(88, 166, 105);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.react1 {
+    position: absolute;
+    font-size: 300%;
+    color: white;
+    right: 70px;
+    bottom: 100px;
+}
+
+.red {
+    color: red;
+    position: relative;
+    top: 8px;
+    left: -10px;
+}
+
+.icon {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0;
+    background: rgba(145, 65, 65, 0.705);
+}
+
+img {
+    width: 60px;
+}
+
+.description {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 20px;
+    color: rgb(247, 247, 247);
+}
